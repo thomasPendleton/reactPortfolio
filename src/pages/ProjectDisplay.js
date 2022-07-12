@@ -15,7 +15,9 @@ const ProjectDisplay = () => {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHub />
+      <a href="https://github.com/thomasPendleton/jamming">
+        <GitHub />
+      </a>
     </div>
   )
 }

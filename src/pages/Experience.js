@@ -55,6 +55,17 @@ const Experience = () => {
           </h3>
           <p>High School Diploma</p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2004-2005"
+          iconStyle={{ background: '#3e4999', color: '#fff' }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Foothill HighSchool, North Tustin , California
+          </h3>
+          <p>High School Diploma</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   )
